@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabelo Glen Artworks</title>
+    <link href="css/home.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="topnav" id="topnav">
+        <div id="logo" class="logo">
+            <img src="art/glen_artworks_logo.jpg" alt="Kabelo Glen Artworks Logo" width="240" height="200">
+            <!-- <p>Kabelo Glen ARTWORK</p> -->
+        </div>            
+        <ul class="menu">
+            <li><a href="html/art_collection.html">Art Collection</a></li>
+            <li><a href="html/latest_pieces.html">Latest Pieces</a></li>
+            <li><a href="html/celebrity_drawings.html">Celebrity Drawings</a></li>
+            <li><a href="html/journey.html">Journey</a></li>
+            <li><a href="html/about_us.html">About Us</a></li>
+        </ul>
+
+        <button class="hamburger" onclick="toggleMenu()" >☰</button>
+
+    </nav>
+    <hr>
+
+    <div id="art_preview" class="art_preview">
+        <img src="art/black_is_gold.jpg" alt="black_is_gold">
+        <img src="art/black_woman_magic.jpg" alt="art_no3">
+        <img src="art/mixed_emotions.jpg" alt="art_no4">
+        <!-- <img src="/art/need_$$.jpg" alt="art_no5" height="500px" width="500px">  -->
+    </div>
+
+    <br>
+    <hr>
+
+    <div id="art_preview" class="art_preview">
+        <img src="art/the_story_of_oj.jpg" alt="oj_okay">
+        <img src="art/keep_it_a_klipaa.jpg" alt="art_no4">
+        <img src="art/chromakopia.jpg" alt="art_no3">
+        
+        
+        <!-- <img src="/art/need_$$.jpg" alt="art_no5" height="500px" width="500px">  -->
+    </div>
+
+    <hr>
+    <div id="featured_content" class="featured_content">
+        <div id="glenartzz">
+            <img src="art/glen_artworks_logo.jpg" width="200px" height="140px" alt="Logo">
+            <p id="brand_name">Kabelo Glen ARTWORK</p>
+        </div>
+    </div>
+    <hr>
+
+    <footer>
+        <div id="footer_info">
+            <section id="quick_links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/share/1BtWM6a7Vj/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/kabeloglen.artwork?igsh=bW5qYnI3cDM5bDgx" target="_blank">Instagram</a></li>
+                    <li><a href="https://wa.me/27812978886" target="_blank" >WhatsApp</a></li>
+                </ul>
+            </section>
+
+            <section id="contact_us">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="mailto:kabeloglen@icloud.com">Email </a></li>
+                    <li><a href="https://wa.me/27812978886">Call </a></li>
+
+                </ul>
+
+            </section>
+
+            <section id="comment">
+                <h3>Leave A Comment</h3>
+                <input type="text" placeholder="Your comment">
+                <input type="submit">
+
+            </section>
+        </div>
+
+        <br>
+
+        <div id="logo_container">
+            <a href="https://www.facebook.com/share/1BtWM6a7Vj/?mibextid=wwXIfr"><img src="/social links/facebook-1-svgrepo-com.svg" alt="Facebook"  height="60"></a>
+            <a href="https://www.instagram.com/kabeloglen.artwork?igsh=bW5qYnI3cDM5bDgx"><img src="/social links/instagram-1-svgrepo-com.svg" alt="Instagram" height="60"></a>
+            <a href="https://wa.me/27812978886"><img src="/social links/whatsapp-svgrepo-com.svg" alt="WhatsApp" height="60"></a>
+
+        </div>
+
+        <p id="brand_name">&copy; 2025 Kabelo Glen ARTWORK. All rights reserved.</p>
+
+
+    </footer>
+
+    <script>
+        function toggleMenu(){
+            const menu = document.querySelector('.menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

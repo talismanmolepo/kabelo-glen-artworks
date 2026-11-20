@@ -1,0 +1,191 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img {
+    max-width: 280px;
+    height: 200px;
+}
+.logo p {
+    margin: 10px 0 0 0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    margin: 0 10px;
+}
+
+#topnav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+#topnav ul li a:active {
+    background-color: black;
+    color: white;
+}
+
+
+.hamburger{
+    display: none;
+}
+
+
+
+.art_preview{
+    display: flex;
+    gap: 5px;
+}
+
+.art_preview img {
+    width: 33%;
+    height: 75%;
+}
+
+#glenartzz {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+#footer_info {
+    display: flex;
+}
+
+#quick_links, #contact_us, #comment{
+    flex: 1;
+
+}
+
+#contact_us ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#quick_links a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer #brand_name {
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
+}
+
+
+@media (max-width: 978px){
+    .topnav ul{
+        display: none;
+    }
+
+    .menu{
+        display:none;
+        flex-direction:column;
+        background-color: white;
+        position: absolute;
+        top: 38%;
+        right:0;
+        width: 200px;
+
+
+    }
+
+    .menu li {
+        border-bottom: 1px solid #555;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 1em;
+        color: white;
+    }
+
+
+    .hamburger {
+        display: block;
+    }
+
+    #art_preview{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    #art_preview img {
+        width: 100%;
+        height: auto;
+    }
+
+    #glenartzz {
+        background-color: white;
+        color: black;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #footer_info {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    #quick_links ul {
+        display:block;
+    }
+
+    #contact_us ul {
+        display: grid;
+    }
+
+
+    /* footer {
+        background-image: url('/art/signature.jpg');
+        background-size: cover;
+    } */
+
+
+    
+    
+
+}
